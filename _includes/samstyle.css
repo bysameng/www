@@ -1,0 +1,258 @@
+.banner{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr{
+    background-color:#333;
+    border-color:#333;
+}
+
+.logobig{
+    background-image:url(/images/logoblackwhite.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 20vh;
+    width:25vh;
+    height:25vh;
+    opacity:.8;
+    
+    -webkit-transition: all .4s ease;
+       -moz-transition: all .4s ease;
+         -o-transition: all .4s ease;
+        -ms-transition: all .4s ease;
+            transition: all .4s ease;
+}
+
+.logobig:hover{
+    overflow:visible;
+    background-image:url(/images/logoblackwhiteglowfinal.png);
+    opacity:1;
+    -webkit-transition: all .4s ease;
+       -moz-transition: all .4s ease;
+         -o-transition: all .4s ease;
+        -ms-transition: all .4s ease;
+            transition: all .4s ease;
+/*
+    	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg);
+*/
+    background-size:21vh;
+}
+
+.gamebanner{
+    width:100%;
+    margin-bottom:3%;
+    
+    opacity:0.8;
+    filter:alpha(opacity=70);
+    border-style:solid;
+    border-width: 5px;
+    border-color: #111111;
+    
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+    
+    -webkit-transition: all .1s ease;
+       -moz-transition: all .1s ease;
+         -o-transition: all .1s ease;
+        -ms-transition: all .1s ease;
+            transition: all .1s ease;
+/*    margin-left: 0px;*/
+}
+
+.gamebanner:hover{
+    opacity:0.95;
+    filter:alpha(opacity=95);
+/*    margin-left: 10px;*/
+}
+
+.gamebanner:active{
+    opacity:1;
+    filter:alpha(opacity=100);
+    border-color:white;
+}
+
+.grayscalehover{
+    -webkit-filter: grayscale(30%);
+    -webkit-transition: all .5s ease;
+       -moz-transition: all .5s ease;
+         -o-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+            transition: all .5s ease;
+}
+
+.grayscalehover:hover {
+    -webkit-filter: grayscale(0%);
+}
+
+a {
+    -webkit-transition: all .4s ease;
+       -moz-transition: all .4s ease;
+         -o-transition: all .4s ease;
+        -ms-transition: all .4s ease;
+            transition: all .4s ease;
+}
+
+.zarvot{
+    background-color:floralwhite;
+}
+
+.blackbody{
+    background-color:black;
+}
+
+
+.dark{
+    background-color:white;
+    color: #222;
+}
+
+.gameplaygif{
+    width:100%;
+}
+
+.nopadding{
+    padding:0;
+}
+
+
+.dark input, textarea{
+    color:#EEE;
+    resize:vertical;
+}
+
+.dark input{
+    resize:none;
+}
+
+.dark .form-control{
+    background-color:#EEE;
+    border-color: #222;
+    color:#111;
+    border-width:1px;
+}
+
+.dark a{
+/*    color:#669*/
+    color:black;
+}
+.dark a:hover{
+/*    color:#99B*/
+    color:black;
+}
+
+
+.light{
+/*    background-color:#FFE;*/
+    background-color:white;
+    color: #222;
+    font-family: 'Source Code Pro' ;
+}
+
+.light a:hover{
+    color: black;
+}
+
+
+.dark .form-control:focus{
+  border-color: black;
+  box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.075), 0px 1px 20px rgba(0, 0, 0, 0.1);
+  color:#000;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    height:400px;
+}
+
+
+.dark ::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #888;
+}
+.dark :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #888;
+}
+.dark ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #888;
+}
+.dark :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #888;
+}
+.narrow{
+    max-width: 60em;
+}
+
+.dark .btn{
+    background-color:#444;
+    color:white;
+    -webkit-transition: all .3s ease;
+       -moz-transition: all .3s ease;
+         -o-transition: all .3s ease;
+        -ms-transition: all .3s ease;
+            transition: all .3s ease;
+}
+
+
+.dark .btn:hover{
+    background-color:#666;
+}
+
+p.text-danger{
+    font-size:90%;
+}
+
+.red{
+    opacity:.4;
+    background-color:red;
+}
+
+.jumbotron{
+    background-color:rgba(0,0,0,0);
+    padding: 3em;
+    margin: 1em auto;
+    max-width:900px;
+}
+
+.stafe{
+    background-color:black;
+    color:white;
+}
+
+.syberplunk{
+    background-color:black;
+    background-image:url(/images/screenshots/sybernotext.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    color:white;
+}
+
+.leveleve{
+    background-image:url(/images/screenshots/leveleve.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.stream{
+    font-family: 'Lekton', monospace, sans-serif;
+    background-color: #86868C;
+    color: #D0CEDD;
+    padding-bottom: 10%;
+}
+
+.stream a{
+    color: #E0DEED;
+}
+.stream a:hover{
+    color:white;
+}

@@ -1,0 +1,301 @@
+body {
+  	font-family: Helvetica, "Helvetica", Arial, sans-serif;
+	background-color:#F8F8F8;
+}
+
+.artpage{
+	background: url("https://dl.dropboxusercontent.com/s/7w8qwnvvryd9zqz/artbackground.JPG") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="https://dl.dropboxusercontent.com/s/7w8qwnvvryd9zqz/artbackground.JPG", sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src="https://dl.dropboxusercontent.com/s/7w8qwnvvryd9zqz/artbackground.JPG", sizingMethod='scale')";
+}
+
+.sspage{
+	background: url("http://dl.dropboxusercontent.com/s/hhw5ylvztshjmsf/ssbackground.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://dl.dropboxusercontent.com/s/hhw5ylvztshjmsf/ssbackground.jpg", sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://dl.dropboxusercontent.com/s/hhw5ylvztshjmsf/ssbackground.jpg", sizingMethod='scale')";
+}
+
+.fabpage{
+    image-rendering:optimizeSpeed;             /* Legal fallback */
+  image-rendering:-moz-crisp-edges;          /* Firefox        */
+  image-rendering:-o-crisp-edges;            /* Opera          */
+  image-rendering:-webkit-optimize-contrast; /* Safari         */
+  image-rendering:optimize-contrast;         /* CSS3 Proposed  */
+  image-rendering:crisp-edges;               /* CSS4 Proposed  */
+  image-rendering:pixelated;                 /* CSS4 Proposed  */
+  -ms-interpolation-mode:nearest-neighbor;   /* IE8+           */
+     background: url("https://dl.dropboxusercontent.com/s/kuyjwyh7dw76xc7/fabcover.png") no-repeat center center fixed opacity: 0.4;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="https://dl.dropboxusercontent.com/s/kuyjwyh7dw76xc7/fabcover.png", sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src="https://dl.dropboxusercontent.com/s/kuyjwyh7dw76xc7/fabcover.png", sizingMethod='scale')";
+}
+
+
+.i5ampage{
+	background: url("http://dl.dropboxusercontent.com/s/oo555qog735rpk4/I5AM-04.png") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://dl.dropboxusercontent.com/s/oo555qog735rpk4/I5AM-04.png", sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://dl.dropboxusercontent.com/s/oo555qog735rpk4/I5AM-04.png", sizingMethod='scale')";
+}
+
+.syberpage{
+	background-color: black;
+}
+
+.syberpage a:link, .syberpage a:visited{
+	color: #222222; 
+}
+.syberpage a:hover{
+	color:#BBBBBB;
+}
+
+.syberpage .title a:link, .syberpage .title a:visited{
+	color: #111111;
+}
+.syberpage .title a:hover{
+	color: #888888;
+}
+
+.leveleve{
+	background-color: white;
+
+}
+
+#phasergame{
+  
+    margin: 0 auto;
+    padding-bottom:200px;
+}
+
+@font-face{
+	font-family: Silkscreen;
+	src: url('slkscr.eot'), url('slkscr.ttf') format('truetype');
+}
+
+
+a:link {
+	color:black;
+	opacity = 0.1;
+    text-decoration: none;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+}
+
+a img{
+	margin:0;
+}
+
+a:visited{
+		color:black;
+		opacity = 0.9;
+	    text-decoration: none;
+}
+a:hover {
+        color: #999999;
+        opacity: 1;
+        text-decoration: none;
+}
+
+li {
+	opacity: 0.5;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.20%; /* 16:9 */
+	padding-top: 0px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.title {
+  	font-family: "Lucida Console", monospace;
+	letter-spacing: 50px;
+	padding-left:50px;
+	text-align:center;
+  	font-size:200%;
+  	font-weight:lighter;
+  	padding-top:.25em;
+}
+
+h6 {
+	margin:0;
+	padding:0;
+}
+  	
+ul.navbar {
+	list-style-type:none;
+	font-size:70%;
+	margin:0;
+	padding:0;
+	text-align:center;
+	padding-bottom:50px;
+}
+li {
+	display:inline;
+}
+
+h7 {
+	margin-bottom:20px;
+	color:gray;
+	font-weight:bold;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	display:block;
+	font-size:200%;
+}
+
+img.screenshot{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+    width:100%;
+    height: auto;
+    background-color: black;
+}
+
+img.longscreenshot{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	height:auto;
+}
+p {
+	color: gray;
+	font-family: Perpetua, Garamond, "Century Schoolbook", Palatino, Serif;
+	width:300px;
+	line-height:150%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:justify;
+	display:block;
+}
+
+p.centerlink{
+	text-align:center;
+	}
+
+footer {
+	position:absolute;
+	bottom: 0;
+	width:100%;
+  	font-size: 50%;
+	text-align: center;
+	padding-top:1em;
+  	border-top: thin dotted;
+	font-style:italic;
+	height: 40px;
+}
+
+html,
+body {
+   margin:0 auto;
+   height:100%;
+   width:100%;
+}
+#container {
+   min-height:100%;
+   width:100%;
+   position:relative;
+
+}
+#header {
+	
+}
+#body {
+   padding:10px;
+   margin:0 auto;
+   width:80%;
+   padding-bottom:100px;   /* Height of the footer */
+}
+
+#bodynopadding {
+   padding-top:10px;
+   margin-bottom:-50px;
+   margin:0 auto;
+   width:80%;
+   padding-bottom:-00px;
+}
+
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:100px;   /* Height of the footer */
+
+}
+
+#game{
+	margin:0 auto;
+	text-align: center;
+	height:2048px;
+}
+
+#unityplayer{
+background-color:blue;
+}
+
+pre{
+	margin:0 auto;
+}
+
+iframe { 
+	width: 100%; 
+	height: 900px; 
+}
+
+object.gameframe{
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	overflow:hidden;
+	width: 100%;
+	height:900px;
+}
+
+#unityPlayer>* {
+outline: 0;
+}
+
+@media handheld, only screen and (max-width: 540px) {
+ //mobile version css
+h1 {
+  	font-family: Helvetica;
+	margin:0;
+  	padding:0;
+  	font-size:1000%;
+  	font-weight:bold;
+  	line-height:100%;
+}
+
+img.screenshot{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+    width:90%; /* you can use % */
+    height: auto;
+}

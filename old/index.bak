@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>420YOLO</title>
+	<link rel="stylesheet" href = "style.css">
+</head>
+
+
+<body>
+
+<h1 align = "center"><a href="index.html">420YOLO</a></h1>
+<h6 align = "center" >weed, bong, scope.</h6>
+<hr width = 50%>
+
+<!-- menu -->
+<ul class = "navbar">
+	<li><a href = "index.html">HOME.</a>
+	<li><a href = "mlg.html">SWAG.</a>
+	<li><a href = "about.html">ABOUT.</a>
+	<li><a href = "mailto:sam.eng@icloud.com?Subject=420YOLO">CONTACT.</a>
+</ul>
+
+<img class = "screenshot" src = "images/420yolo_2.png" title="Do it.">				
+		
+<p>
+This is the home of 420YOLO, a game about doing 360 noscopes and blazing marijuana over the corpses of your enemies. 
+</p>
+<p class = "centerlink"><a href= "download.html">Download.</a>
+</p>
+		
+<address align = "center">SAM ENG, 2013.<br></address>
+</body>
+</html>

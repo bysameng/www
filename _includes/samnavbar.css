@@ -1,0 +1,66 @@
+.navbar-sam{
+/*    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f68a28), color-stop(100%, salmon));*/
+    border-style: none;
+    box-shadow: none;
+    margin:0 auto;
+    padding:0;
+    background-image: none;
+    background-color:rgba(255,255,255,1.0);
+}
+
+
+
+.navbar-sam a{
+    color:#222;
+}
+.navbar-sam a:hover{
+    color:#000;
+    text-decoration:underline;
+}
+
+body{
+    background-color:rgba(255,255,255,1.0);
+/*
+	background: -webkit-linear-gradient(top, #EDFFFC,#EFCAAC);
+	background: -moz-linear-gradient(top, #EDFFFC,#EFCAAC);
+	background: -oz-linear-gradient(top, #EDFFFC,#EFCAAC);
+	background: -ms-linear-gradient(top, #EDFFFC,#EFCAAC);
+	background: -linear-gradient(top, #EDFFFC,#EFCAAC);
+    height:100%;
+    font-family: 'Khula', 'sans-serif';
+*/
+}
+
+
+
+.logo{
+    background-image:url(/images/logosmall.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    width:100px;
+    height:100px;
+    
+    opacity:.9;
+    
+    -webkit-transition: all .5s ease;
+       -moz-transition: all .5s ease;
+         -o-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+            transition: all .5s ease;
+}
+
+.logo:hover{
+    background-image:url(/images/logosmalllit.png);
+    opacity:1;
+}
+
+.navbar .nav li a:hover {
+    color:#000;
+    text-decoration:underline;
+}
+
+.header{
+    border-bottom:1px;
+    border-bottom-style:dotted;
+    border-bottom-color:black;
+}
